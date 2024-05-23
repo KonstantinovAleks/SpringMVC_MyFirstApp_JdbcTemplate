@@ -1,4 +1,4 @@
-# video10
+# video11
 
 ### Description of the project
     Проект сделал по видео:
@@ -9,6 +9,7 @@
         Alishev -> Spring Mvc -> "8. Spring MVC. CRUD, REST, Паттерн DAO (Data Access Object)."
         Alishev -> Spring Mvc -> "9. Аннотация @ModelAttribute. HTML Формы (Thymeleaf)."
         Alishev -> Spring Mvc -> "10. CRUD приложение. PATCH, DELETE запросы."
+        Alishev -> Spring Mvc -> "11. Валидация форм. Аннотация @Valid."
 
 ### Entry point
     http://localhost:8080/people
@@ -18,3 +19,9 @@
          - добавление нового человека в список
          - изменение данных человека
          - удаление человека
+
+         - VIDEO11 - проект сделан в новой ветке "video11"
+         - добавлена валидация полей, изменения внесены в:
+             - pom-файл (добавлена зависимость "hibernate-validator");
+             - класс "Person", "PeopleController";
+             - new.html-файл, edit.html-файл
