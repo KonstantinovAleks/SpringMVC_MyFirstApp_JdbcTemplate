@@ -1,4 +1,4 @@
-# video11
+# video12
 
 ### Description of the project
     Проект сделал по видео:
@@ -10,6 +10,7 @@
         Alishev -> Spring Mvc -> "9. Аннотация @ModelAttribute. HTML Формы (Thymeleaf)."
         Alishev -> Spring Mvc -> "10. CRUD приложение. PATCH, DELETE запросы."
         Alishev -> Spring Mvc -> "11. Валидация форм. Аннотация @Valid."
+        Alishev -> Spring Mvc -> "12. JDBC API. Базы данных."
 
 ### Entry point
     http://localhost:8080/people
@@ -25,3 +26,7 @@
              - pom-файл (добавлена зависимость "hibernate-validator");
              - класс "Person", "PeopleController";
              - new.html-файл, edit.html-файл
+
+         - VIDEO12 - проект сделан в новой ветке "video12"
+             - добавлена зависимость "mysql-connector-java"
+             - подключена БД через JDBC API
