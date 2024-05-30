@@ -1,4 +1,4 @@
-# video12
+# video13
 
 ### Description of the project
     Проект сделал по видео:
@@ -11,6 +11,7 @@
         Alishev -> Spring Mvc -> "10. CRUD приложение. PATCH, DELETE запросы."
         Alishev -> Spring Mvc -> "11. Валидация форм. Аннотация @Valid."
         Alishev -> Spring Mvc -> "12. JDBC API. Базы данных."
+        Alishev -> Spring Mvc -> "13. SQL инъекции. PreparedStatement. JDBC API."
 
 ### Entry point
     http://localhost:8080/people
@@ -30,3 +31,7 @@
          - VIDEO12 - проект сделан в новой ветке "video12"
              - добавлена зависимость "mysql-connector-java"
              - подключена БД через JDBC API
+
+         - VIDEO13
+             - обновлён класс "PersonDAO"
+                 - изменены методы (замена на SQL-запросы для работы с БД)
