@@ -1,4 +1,4 @@
-# video13
+# video14
 
 ### Description of the project
     Проект сделал по видео:
@@ -12,6 +12,7 @@
         Alishev -> Spring Mvc -> "11. Валидация форм. Аннотация @Valid."
         Alishev -> Spring Mvc -> "12. JDBC API. Базы данных."
         Alishev -> Spring Mvc -> "13. SQL инъекции. PreparedStatement. JDBC API."
+        Alishev -> Spring Mvc -> "14. ??? "
 
 ### Entry point
     http://localhost:8080/people
@@ -35,3 +36,11 @@
          - VIDEO13
              - обновлён класс "PersonDAO"
                  - изменены методы (замена на SQL-запросы для работы с БД)
+
+         - VIDEO14
+             - добавлена зависимость "spring-jdbc"
+             - обновлён класс "SpringConfig"
+                 - добавлен метод "public DataSource dataSource()"
+                 - добавлен метод "public JdbcTemplate jdbcTemplate()"
+             - обновлён класс "PersonDAO"
+             - добавлен класс "PersonMapper" -> затем заменили его на "new BeanPropertyRowMapper<>(Person.class)"

@@ -1,5 +1,3 @@
-// работа из ветки video13
-
 package ru.alishev.springcourse.controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;
